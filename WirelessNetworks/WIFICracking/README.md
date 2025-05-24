@@ -73,6 +73,19 @@ aircrack-ng demo-03.cap -w /usr/share/seclists/Passwords/WiFi-WPA/probable-v2-wp
 Done! You cracked the password `slipknot` a super secure one ;)
 
 
+## Cleanup
 
+Disable the monitor mode and restore networking processes
+
+```bash
+sudo airmon-ng stop wlan0mon
+sudo service networking restart
+sudo service NetworkManager restart
+```
+
+## References
+- https://www.aircrack-ng.org/doku.php
+- https://blogs.dsu.edu/digforce/2023/07/11/penetrating-networks-by-cracking-wpa2/
+- https://book.hacktricks.wiki/en/generic-methodologies-and-resources/pentesting-wifi/index.html#wpawpa2-psk 
 
 
