@@ -8,6 +8,7 @@
 For the following demo I'm using a Lab setup to simulate a `real world` use case:
 * Access point (AP)
     * Android device #1 with AP mode enabled with WPA2
+    * Set an easy password like `slipknot` or `metallica`
 * WIFI Client
     * Android device #2
 * Attacker
