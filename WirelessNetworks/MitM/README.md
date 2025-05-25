@@ -83,3 +83,9 @@ dns.spoof on
 echo 0 | sudo tee /proc/sys/net/ipv4/ip_forward
 sudo iptables -t nat -D POSTROUTING -o wlan0 -j MASQUERADE
 ```
+
+* Restore internet connectivity
+
+```bash
+sudo ip link set eth0 up
+```
