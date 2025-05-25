@@ -89,3 +89,8 @@ sudo iptables -t nat -D POSTROUTING -o wlan0 -j MASQUERADE
 ```bash
 sudo ip link set eth0 up
 ```
+
+## References
+
+* https://sankalppatil12112001.medium.com/bettercap-basics-your-ultimate-guide-to-network-penetration-testing-1d6b087a8f31
+* https://github.com/frostbits-security/MITM-cheatsheet
